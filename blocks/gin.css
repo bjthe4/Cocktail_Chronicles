@@ -1,0 +1,14 @@
+.gin {
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #fff;
+  margin: 30px;
+  flex-wrap: wrap;
+  gap: 50px;
+  border-radius: 50px;
+  text-align: center;
+  /* align-items: flex-start; */
+  /* align-items: stretch; */
+}

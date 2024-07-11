@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  position: relative;
+  min-height: 50px;
+  padding: 20px 50px;
+  align-items: center;
+  /* border-bottom: 1px solid #000; */
+  box-shadow: 0 1px #0000003e;
+}
+
+.nav__logo {
+  max-width: 400px;
+  position: absolute;
+  top: 0;
+}
+
+.nav__links {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  margin-left: auto;
+}
+
+.nav__link {
+  text-decoration: none;
+}
