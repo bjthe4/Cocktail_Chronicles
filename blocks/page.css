@@ -1,0 +1,11 @@
+.page {
+  background-color: #d9e5fd;
+  font-family: "Inter", Arial, sans-serif;
+  max-width: 1600px;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}

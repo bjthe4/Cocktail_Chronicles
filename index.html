@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Summer cocktails recipes website" />
+    <meta name="keywords" content="HTML, CSS, Cocktails," />
+    <meta
+      name="author"
+      content="Benedict I., Genti T., Nahaliel G., Trang T."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/images/cocktail.png" />
+    <link rel="stylesheet" href="styleReset.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Cocktail Chronicles</title>
+  </head>
+  <body>
+    <page class="page">
+      <header class="header" id="header">
+        <div class="darkmode">
+          <input type="checkbox" id="darkmode-toggle" />
+          <label for="darkmode-toggle"></label>
+        </div>
+        <div class="header__nav-container">
+          <img
+            src="./images/Logo.png"
+            alt="Cocktail Chronicles"
+            class="header__logo"
+          />
+
+          <div class="nav">
+            <p class="nav__prompt">Pick your antidote:</p>
+            <nav class="nav__bar">
+              <ul class="nav__links">
+                <li><a href="#vodka" class="nav__link">Vodka</a></li>
+                <li><a href="#gin" class="nav__link">Gin</a></li>
+                <li><a href="#tequila" class="nav__link">Tequila</a></li>
+                <li><a href="#rum" class="nav__link">Rum</a></li>
+                <li></li>
+              </ul>
+            </nav>
+            <!-- <span class="nav__border-bottom"></span> -->
+          </div>
+        </div>
+        <div class="header__intro-wrapper">
+          <img src="./images/arrow.svg" alt="" class="header__arrow" />
+          <!-- <div class="header__arrow1"></div>
+          <div class="header__arrow2"></div> -->
+          <div class="header__intro">
+            <img
+              src="./images/introimage.jpg"
+              alt="Summer drinks"
+              class="header__intro-image"
+            />
+
+            <h4 class="header__question">
+              Feeling thirsty? We've curated some easy-to-make home cocktail
+              recipes just for you! Ready to escape the summer heat?
+            </h4>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <!---------- Vodka Cocktails ---------->
+        <section class="cocktails cocktails--vodka" id="vodka">
+          <h2>Vodka Cocktails</h2>
+          <div class="cocktails__cards">
+            <div class="cocktails__card">
+              <div class="cocktails__card-name-image">
+                <div class="cocktails__drink-name">
+                  <h2>Moscow Mule</h2>
+                </div>
+
+                <img
+                  src="./images/Drinks/MoscowMule.jpg"
+                  alt="Moscow Mule cocktail"
+                  class="cocktails__drink-image"
+                />
+              </div>
+
+              <div class="cocktails__drink-details">
+                <h3>Ingredients:</h3>
+                <p>Vodka, ginger beer, lime juice</p>
+                <h3>Instructions:</h3>
+                <p>
+                  Fill a copper mug with ice, add vodka and lime juice, and top
+                  with ginger beer. Garnish with a lime wedge.
+                </p>
+              </div>
+            </div>
+
+            <div class="cocktails__card">
+              <div class="cocktails__card-name-image">
+                <div class="cocktails__drink-name">
+                  <h2>Vodka Lemonade</h2>
+                </div>
+
+                <img
+                  src="./images/Drinks/VodkaLemonade.jpg"
+                  alt="Vodka Lemonade cocktail"
+                  class="cocktails__drink-image"
+                />
+              </div>
+              <div class="cocktails__drink-details">
+                <h3>Ingredients:</h3>
+                <p>Vodka, lemonade, mint leaves</p>
+                <h3>Instructions:</h3>
+                <p>
+                  Fill a glass with ice, add vodka and lemonade, and stir.
+                  Garnish with mint leaves
+                </p>
+              </div>
+            </div>
+
+            <div class="cocktails__card">
+              <div class="cocktails__card-name-image">
+                <div class="cocktails__drink-name">
+                  <h2>Cosmopolitan</h2>
+                </div>
+
+                <img
+                  src="./images/Drinks/Cosmopolitan.jpg"
+                  alt="Cosmopolitan cocktail"
+                  class="cocktails__drink-image"
+                />
+              </div>
+              <div class="cocktails__drink-details">
+                <h3>Ingredients:</h3>
+                <p>Vodka, triple sec, cranberry juice, lime juice</p>
+                <h3>Instructions:</h3>
+                <p>
+                  Shake all ingredients with ice, strain into a chilled martini
+                  glass, and garnish with a lime twist.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!---------- Gin Cocktails ---------->
+        <section class="cocktails cocktails--gin" id="gin">
+          <h2>Gin Cocktails</h2>
+          <div class="cocktails__cards">
+            <div class="cocktails__card" id="cocktails__card">
+              <div class="cocktails__card-name-image">
+                <div class="cocktails__drink-name">
+                  <h2>Gin and Tonic</h2>
+                </div>
+
+                <img
+                  src="./images/Drinks/Gin_Tonic.jpg"
+                  alt="Gin and tonic cocktail"
+                  class="cocktails__drink-image"
+                />
+              </div>
+
+              <div class="cocktails__drink-details">
+                <h3>Ingredients:</h3>
+                <p>Gin, tonic water, lime wedge</p>
+                <h3>Instructions:</h3>
+                <p>
+                  Fill a glass with ice, add gin, top with tonic water, and
+                  garnish with a lime wedge.
+                </p>
+              </div>
+            </div>
+
+            <div class="cocktails__card">
+              <div class="cocktails__card-name-image">
+                <div class="cocktails__drink-name">
+                  <h2>Tom Collins</h2>
+                </div>
+
+                <img
+                  src="./images/Drinks/TomCollins.jpg"
+                  alt="Tom Collins cocktail"
+                  class="cocktails__drink-image"
+                />
+              </div>
+              <div class="cocktails__drink-details">
+                <h3>Ingredients:</h3>
+                <p>Gin, lemon juice, simple syrup, soda water</p>
+                <h3>Instructions:</h3>
+                <p>
+                  Shake gin, lemon juice, and simple syrup with ice. Strain into
+                  a glass filled with ice and top with soda water. Garnish with
+                  a lemon slice.
+                </p>
+              </div>
+            </div>
+
+            <div class="cocktails__card">
+              <div class="cocktails__card-name-image">
+                <div class="cocktails__drink-name">
+                  <h2>Gin Fizz</h2>
+                </div>
+
+                <img
+                  src="./images/Drinks/Gin_Fizz.webp"
+                  alt="Gin Fizz cocktail"
+                  class="cocktails__drink-image"
+                />
+              </div>
+              <div class="cocktails__drink-details">
+                <h3>Ingredients:</h3>
+                <p>Gin, lemon juice, simple syrup, soda water</p>
+                <h3>Instructions:</h3>
+                <p>
+                  Shake gin, lemon juice, and simple syrup with ice. Strain into
+                  a glass and top with soda water. Garnish with a lemon twist.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!---------- Tequila Cocktails ---------->
+        <section class="cocktails cocktails--tequila" id="tequila">
+          <h2>Tequila Cocktails</h2>
+          <div class="cocktails__cards">
+            <div class="cocktails__card">
+              <div class="cocktails__card-name-image">
+                <div class="cocktails__drink-name">
+                  <h2>Margarita</h2>
+                </div>
+
+                <img
+                  src="./images/Drinks/margarita.jpg"
+                  alt="Margarita cocktail"
+                  class="cocktails__drink-image"
+                />
+              </div>
+
+              <div class="cocktails__drink-details">
+                <h3>Ingredients:</h3>
+                <p>Tequila, triple sec, lime juice, simple syrup (optional)</p>
+                <h3>Instructions:</h3>
+                <p>
+                  Shake all ingredients with ice, strain into a salt-rimmed
+                  glass filled with ice, and garnish with a lime wheel.
+                </p>
+              </div>
+            </div>
+
+            <div class="cocktails__card">
+              <div class="cocktails__card-name-image">
+                <div class="cocktails__drink-name">
+                  <h2>Tequila Sunrise</h2>
+                </div>
+
+                <img
+                  src="./images/Drinks/tequila_sunrise.jpg"
+                  alt="Tequila Sunrise cocktail"
+                  class="cocktails__drink-image"
+                />
+              </div>
+              <div class="cocktails__drink-details">
+                <h3>Ingredients:</h3>
+                <p>Tequila, orange juice, grenadine</p>
+                <h3>Instructions:</h3>
+                <p>
+                  Fill a glass with ice, add tequila and orange juice, pour
+                  grenadine slowly to create a gradient effect, and garnish with
+                  an orange slice and cherry.
+                </p>
+              </div>
+            </div>
+
+            <div class="cocktails__card">
+              <div class="cocktails__card-name-image">
+                <div class="cocktails__drink-name">
+                  <h2>Paloma</h2>
+                </div>
+
+                <img
+                  src="./images/Drinks/paloma.jpg"
+                  alt="Paloma cocktail"
+                  class="cocktails__drink-image"
+                />
+              </div>
+              <div class="cocktails__drink-details">
+                <h3>Ingredients:</h3>
+                <p>Tequila, grapefruit soda, lime juice</p>
+                <h3>Instructions:</h3>
+                <p>
+                  Fill a glass with ice, add tequila and lime juice, top with
+                  grapefruit soda, and garnish with a lime wedge.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!---------- Rum Cocktails ---------->
+        <section class="cocktails cocktails--rum" id="rum">
+          <h2>Rum Cocktails</h2>
+          <div class="cocktails__cards">
+            <div class="cocktails__card">
+              <div class="cocktails__card-name-image">
+                <div class="cocktails__drink-name">
+                  <h2>Mojito</h2>
+                </div>
+
+                <img
+                  src="./images/Drinks/Mojito.jpg"
+                  alt="Mojito cocktail"
+                  class="cocktails__drink-image"
+                />
+              </div>
+
+              <div class="cocktails__drink-details">
+                <h3>Ingredients:</h3>
+                <p>
+                  White rum, mint leaves, lime juice, simple syrup, soda water
+                </p>
+                <h3>Instructions:</h3>
+                <p>
+                  Muddle mint leaves with lime juice and simple syrup. Add rum
+                  and ice, top with soda water, and garnish with a mint sprig.
+                </p>
+              </div>
+            </div>
+
+            <div class="cocktails__card">
+              <div class="cocktails__card-name-image">
+                <div class="cocktails__drink-name">
+                  <h2>Piña Colada</h2>
+                </div>
+
+                <img
+                  src="./images/Drinks/pinaColada.jpg"
+                  alt="Piña Colada cocktail"
+                  class="cocktails__drink-image"
+                />
+              </div>
+              <div class="cocktails__drink-details">
+                <h3>Ingredients:</h3>
+                <p>White rum, coconut cream, pineapple juice</p>
+                <h3>Instructions:</h3>
+                <p>
+                  Blend all ingredients with ice until smooth, pour into a
+                  glass, and garnish with a pineapple slice and cherry.
+                </p>
+              </div>
+            </div>
+
+            <div class="cocktails__card">
+              <div class="cocktails__card-name-image">
+                <div class="cocktails__drink-name">
+                  <h2>Daiquiri</h2>
+                </div>
+
+                <img
+                  src="./images/Drinks/Daiquiri.jpg"
+                  alt="Daiquiri cocktail"
+                  class="cocktails__drink-image"
+                />
+              </div>
+              <div class="cocktails__drink-details">
+                <h3>Ingredients:</h3>
+                <p>White rum, lime juice, simple syrup</p>
+                <h3>Instructions:</h3>
+                <p>
+                  Shake all ingredients with ice, strain into a chilled glass,
+                  and garnish with a lime wheel.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!---------- Footer---------->
+      <footer class="footer" id="footer">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              src="./images/cocktail.png"
+              alt="Cocktail logo"
+              class="footer__logo"
+            />
+          </div>
+          <div class="footer__container">
+            <h4 class="gradient-text-top">COCKTAIL</h4>
+            <h5 class="gradient-text-bottom">CHRONICLES</h5>
+          </div>
+          <!-- <div class="footer__circle footer__circle_animation_blurred"></div> -->
+          <!-- <div class="footer__column footer__column_content_hours"></div> -->
+          <div class="footer__column footer__column_content_social">
+            <h3 class="footer__column-heading">Contributors</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a
+                  href="https://github.com/NahalielG"
+                  class="footer__column-link"
+                >
+                  <img
+                    src="./images/github.png"
+                    alt="git hub logo"
+                    class="footer__social-icon"
+                  />
+                  Nahaliel G.
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a
+                  href="https://github.com/trangmtruong"
+                  class="footer__column-link"
+                >
+                  <img
+                    src="./images/github.png"
+                    alt="git hub logo"
+                    class="footer__social-icon"
+                  />
+                  Trang T.
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="https://github.com/bjthe4" class="footer__column-link">
+                  <img
+                    src="./images/github.png"
+                    alt="git hub logo"
+                    class="footer__social-icon"
+                  />
+                  Benedict I.
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="https://github.com/6ent1" class="footer__column-link">
+                  <img
+                    src="./images/github.png"
+                    alt="git hub logo"
+                    class="footer__social-icon"
+                  />
+                  Genti T.
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; 2024 Cocktail Chronicles</p>
+      </footer>
+    </page>
+
+    <a href="#header" class="scroll-top">
+      <span>
+        <img
+          src="./images/up-arrow.svg"
+          alt=""
+          class="scroll-top-image" /></span
+    ></a>
+  </body>
+</html>

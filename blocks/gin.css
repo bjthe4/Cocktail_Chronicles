@@ -1,0 +1,12 @@
+.cocktails--gin {
+  padding: min(50px, 5vw) min(50px, 5vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin: 30px;
+  flex-wrap: wrap;
+  gap: 50px;
+  border-radius: 50px;
+  text-align: center;
+}

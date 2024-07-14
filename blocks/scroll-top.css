@@ -1,0 +1,13 @@
+.scroll-top {
+  position: fixed;
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  z-index: 4;
+  bottom: 2vw;
+  right: 2vw;
+}
+
+.scroll-top-image {
+  height: 30px;
+}

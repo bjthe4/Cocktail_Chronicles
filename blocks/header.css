@@ -1,0 +1,149 @@
+.header {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  gap: 50px;
+}
+
+.header__logo {
+  max-width: max(30vw, 300px);
+
+  top: 0;
+  left: 10vw;
+}
+
+.header__arrow {
+  position: absolute;
+  height: 116px;
+  width: 111px;
+  right: 69px;
+  top: -34px;
+  animation: pulse 3s infinite;
+}
+
+.header__nav-container {
+  display: flex;
+  gap: 150px;
+}
+
+.header__intro {
+  display: flex;
+  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  max-width: 1600px;
+  font-size: 16px;
+  line-height: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.header__intro-wrapper {
+  position: relative;
+}
+
+.header__intro-image {
+  width: 275px;
+  height: 270px;
+  border-radius: 20px 0 0 20px;
+}
+
+.header__question {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  opacity: 0.8;
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    transform: scale(1.2) rotate(-90deg);
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .header__nav-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .header__arrow {
+    right: 312px;
+  }
+
+  .header__intro-wrapper {
+    width: 80vw;
+  }
+
+  .header__question {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .header__arrow {
+    right: 236px;
+  }
+
+  .header__intro {
+    flex-direction: column;
+  }
+
+  .header__intro img {
+    order: 1;
+  }
+
+  .header__intro-image {
+    object-fit: cover;
+    width: 100%;
+    height: 270px;
+    border-radius: 0 0 20px 20px;
+  }
+}
+
+@media screen and (max-width: 823px) {
+  .header__arrow {
+    height: 90px;
+    right: 195px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .header__nav-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .header__arrow {
+    right: 312px;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .header__arrow {
+    right: 236px;
+  }
+}
+@media screen and (max-width: 823px) {
+  .header__arrow {
+    right: 195px;
+  }
+}
+@media screen and (max-width: 823px) {
+  .header__arrow {
+    right: 152px;
+  }
+}
