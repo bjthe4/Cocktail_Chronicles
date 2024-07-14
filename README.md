@@ -4,7 +4,7 @@
 
 **Features**
 
-Browse cocktail recipes
-Share your own recipes
-Switch between light and dark modes
+* Browse cocktail recipes
+* Share your own recipes
+* Switch between light and dark modes
 
