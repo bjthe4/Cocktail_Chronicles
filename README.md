@@ -5,7 +5,6 @@
 * Features 
 * Flat BEM file structure
 * Semantic HTML5
-* CSS
 * CSS Animations
 * Flexbox
 * Project Link
@@ -25,3 +24,4 @@ Our website features engaging CSS animations that captivate users and enhance th
 We utilized Flexbox to precisely position our elements, enhancing the overall layout and providing an optimal user experience on our website.
 
 **Project Link**
+
