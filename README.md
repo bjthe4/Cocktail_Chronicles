@@ -8,6 +8,7 @@
 *  🎨 CSS Animations
 *  📐 Flexbox
 *  🔗 Project Link
+*  Figma
 
 ## 🚀 Features
 
