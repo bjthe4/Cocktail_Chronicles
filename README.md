@@ -26,3 +26,10 @@ We utilized Flexbox to precisely position our elements, enhancing the overall la
 
 ## 🔗 Project Link
 https://bjthe4.github.io/Cocktail_Chronicles/
+
+## Contributors
+NahalielG
+6ent1
+trangmtruong
+bjthe4
+
