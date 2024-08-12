@@ -1,6 +1,6 @@
 # 🍹 Cocktail Chronicles
 
-#  📖 Project Overview
+##  📖 Project Overview
 
 * We’re developing a responsive website that provides an array of simple and refreshing drink recipes. With the rising demand for at-home culinary experiences, we aim to capture the summer 
   market by offering easy-to-follow recipes that users can enjoy in the comfort of their homes.
