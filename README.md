@@ -1,10 +1,11 @@
 # 🍹 Cocktail Chronicles
 
 #  📖 Project Overview
-Our product is fully responsive, ensuring seamless access to recipes across smartphones, tablets, and computers. We’ve implemented a “back to the top” feature, enabling users to quickly return to the top of the page to select a different type of spirit with ease. Our product offers a seamless transition between night and dark mode, ensuring a user-friendly and convenient experience.
 
+* We’re developing a responsive website that provides an array of simple and refreshing drink recipes. With the rising demand for at-home culinary experiences, we aim to capture the summer 
+  market by offering easy-to-follow recipes that users can enjoy in the comfort of their homes.
 
-*  🚀 Features 
+*  🚀 User Experience (UX) Features
 *  📂 Flat BEM file structure
 *  🌐 Semantic HTML5
 *  🎨 CSS Animations
@@ -12,11 +13,18 @@ Our product is fully responsive, ensuring seamless access to recipes across smar
 *  🔗 Project Link
 *  Figma
 
-## 🚀 Features
+## 🚀 User Experience (UX) Features
+
+* Responsive Design: Our product is fully responsive, ensuring seamless access across smartphones, tablets, and computers, providing an optimal user experience on any device.
+  
+* "Back to the Top" Feature: A convenient "back to the top" button allows users to quickly return to the top of the page, making it easy to select different types of content or navigate through the application.
+  
+* Night and Dark Mode: Users can switch between night and dark modes, offering a user-friendly and visually comfortable experience, regardless of the environment.
 
 * Browse cocktail recipes
+  
 * Share your own recipes
-* Switch between light and dark modes
+
 
 ## 🎨 CSS Animations
 
