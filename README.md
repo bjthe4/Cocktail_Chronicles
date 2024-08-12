@@ -1,6 +1,8 @@
 # 🍹 Cocktail Chronicles
 
-#  📖 Overview
+#  📖 Project Overview
+Our product is fully responsive, ensuring seamless access to recipes across smartphones, tablets, and computers. We’ve implemented a “back to the top” feature, enabling users to quickly return to the top of the page to select a different type of spirit with ease. Our product offers a seamless transition between night and dark mode, ensuring a user-friendly and convenient experience.
+
 
 *  🚀 Features 
 *  📂 Flat BEM file structure
